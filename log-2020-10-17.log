@@ -1,0 +1,58 @@
+CRITICAL - 2020-10-17 03:35:06 --> Column 'sampul' cannot be null
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ko...')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(83): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(923): App\Controllers\Komik->save()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-17 03:35:44 --> Column 'sampul' cannot be null
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ko...')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(83): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(923): App\Controllers\Komik->save()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-17 03:41:30 --> Column 'sampul' cannot be null
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ko...')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ko...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ko...')
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ko...', Array, false)
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(83): CodeIgniter\Model->save(Array)
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(923): App\Controllers\Komik->save()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#9 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-17 04:56:52 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$getError
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(923): App\Controllers\Komik->update('14')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-17 04:57:02 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$getError
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(174): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 174, Array)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(923): App\Controllers\Komik->update('14')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
